@@ -1,10 +1,15 @@
 Experiment Template
 ==============================
 
-This set of directories is a template for performing a self-contained analysis and writing a subsequent paper or 
+This set of directories is a template for performing a self-contained analysis and writing a subsequent paper or presentation
 
-## Simulation Code ##
+## Using This Template ##
 
+To use this template, you can clone the project into a directory, rename it, and start adding files.  BUT, you should do the following first:
+
+`rm -rf .git; git init`
+
+to start a new Git repository for your analysis. 
 
 
 ## Subdirectories ##
