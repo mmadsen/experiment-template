@@ -1,0 +1,41 @@
+
+```{r libraries, echo=FALSE, cache=FALSE} 
+library(ggplot2) 
+#library(xtable) 
+library(dplyr)
+options(tikzDefaultEngine = "xetex")
+```
+
+# Introduction
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum viverra est est. Proin eget tellus metus. Aenean ac tortor pharetra libero ultricies sagittis. Nulla facilisi. Cras tincidunt interdum tellus, quis consectetur nunc facilisis nec. Sed fermentum erat a ligula posuere quis semper risus ullamcorper. Morbi vel tincidunt augue. Nam dolor ipsum, sagittis quis dignissim eu, pulvinar sed magna. In interdum magna eu orci facilisis congue. Cras a tellus et lorem sagittis viverra. Donec risus lectus, mollis at dignissim viverra, dapibus a nulla. Vivamus porttitor scelerisque turpis, eget lobortis orci auctor eget. Donec ultricies enim ac augue porttitor convallis. Pellentesque nisl lorem, consequat a facilisis in, ornare sed lorem. In luctus, elit ac mattis dapibus, lacus elit varius tortor, vel sollicitudin massa nisl id massa.  Ut sit amet nibh a sem egestas sollicitudin. Vestibulum scelerisque, dui at tincidunt accumsan, ipsum enim feugiat neque, vel interdum turpis lectus sed nisi. Nullam ultrices sodales sem, et placerat nunc euismod eu. Duis leo lacus, semper quis eleifend vitae, viverra ut nisl. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin rutrum eleifend est, id tempor velit viverra sed.
+
+# Methods
+
+\begin{equation}\label{eq:axelrod}p(i,j) = \frac{1}{F} \sum_{f=1}^{F} \delta_{\sigma_f(i)\sigma_f(j)}\end{equation}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum viverra est est. Proin eget tellus metus. Aenean ac tortor pharetra libero ultricies sagittis. Nulla facilisi. Cras tincidunt interdum tellus, quis consectetur nunc facilisis nec. Sed fermentum erat a ligula posuere quis semper risus ullamcorper. Morbi vel tincidunt augue. Nam dolor ipsum, sagittis quis dignissim eu, pulvinar sed magna. In interdum magna eu orci facilisis congue. Cras a tellus et lorem sagittis viverra. Donec risus lectus, mollis at dignissim viverra, dapibus a nulla. Vivamus porttitor scelerisque turpis, eget lobortis orci auctor eget. Donec ultricies enim ac augue porttitor convallis. Pellentesque nisl lorem, consequat a facilisis in, ornare sed lorem. In luctus, elit ac mattis dapibus, lacus elit varius tortor, vel sollicitudin massa nisl id massa.  Ut sit amet nibh a sem egestas sollicitudin. Vestibulum scelerisque, dui at tincidunt accumsan, ipsum enim feugiat neque, vel interdum turpis lectus sed nisi. Nullam ultrices sodales sem, et placerat nunc euismod eu. Duis leo lacus, semper quis eleifend vitae, viverra ut nisl. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin rutrum eleifend est, id tempor velit viverra sed [@mayr1959mayr].
+
+# Experiments
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum viverra est est. Proin eget tellus metus. Aenean ac tortor pharetra libero ultricies sagittis. Nulla facilisi. Cras tincidunt interdum tellus, quis consectetur nunc facilisis nec. Sed fermentum erat a ligula posuere quis semper risus ullamcorper. Morbi vel tincidunt augue. Nam dolor ipsum, sagittis quis dignissim eu, pulvinar sed magna. In interdum magna eu orci facilisis congue. Cras a tellus et lorem sagittis viverra. Donec risus lectus, mollis at dignissim viverra, dapibus a nulla. Vivamus porttitor scelerisque turpis, eget lobortis orci auctor eget. Donec ultricies enim ac augue porttitor convallis. Pellentesque nisl lorem, consequat a facilisis in, ornare sed lorem. In luctus, elit ac mattis dapibus, lacus elit varius tortor, vel sollicitudin massa nisl id massa.  Ut sit amet nibh a sem egestas sollicitudin. Vestibulum scelerisque, dui at tincidunt accumsan, ipsum enim feugiat neque, vel interdum turpis lectus sed nisi. Nullam ultrices sodales sem, et placerat nunc euismod eu. Duis leo lacus, semper quis eleifend vitae, viverra ut nisl. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin rutrum eleifend est, id tempor velit viverra sed.
+
+
+
+# Results
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum viverra est est. Proin eget tellus metus. Aenean ac tortor pharetra libero ultricies sagittis. Nulla facilisi. Cras tincidunt interdum tellus, quis consectetur nunc facilisis nec. Sed fermentum erat a ligula posuere quis semper risus ullamcorper. Morbi vel tincidunt augue. Nam dolor ipsum, sagittis quis dignissim eu, pulvinar sed magna. In interdum magna eu orci facilisis congue. Cras a tellus et lorem sagittis viverra. Donec risus lectus, mollis at dignissim viverra, dapibus a nulla. Vivamus porttitor scelerisque turpis, eget lobortis orci auctor eget. Donec ultricies enim ac augue porttitor convallis. Pellentesque nisl lorem, consequat a facilisis in, ornare sed lorem. In luctus, elit ac mattis dapibus, lacus elit varius tortor, vel sollicitudin massa nisl id massa.  Ut sit amet nibh a sem egestas sollicitudin. Vestibulum scelerisque, dui at tincidunt accumsan, ipsum enim feugiat neque, vel interdum turpis lectus sed nisi. Nullam ultrices sodales sem, et placerat nunc euismod eu. Duis leo lacus, semper quis eleifend vitae, viverra ut nisl. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin rutrum eleifend est, id tempor velit viverra sed.
+
+
+# Discussion
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum viverra est est. Proin eget tellus metus. Aenean ac tortor pharetra libero ultricies sagittis. Nulla facilisi. Cras tincidunt interdum tellus, quis consectetur nunc facilisis nec. Sed fermentum erat a ligula posuere quis semper risus ullamcorper. Morbi vel tincidunt augue. Nam dolor ipsum, sagittis quis dignissim eu, pulvinar sed magna. In interdum magna eu orci facilisis congue. Cras a tellus et lorem sagittis viverra. Donec risus lectus, mollis at dignissim viverra, dapibus a nulla. Vivamus porttitor scelerisque turpis, eget lobortis orci auctor eget. Donec ultricies enim ac augue porttitor convallis. Pellentesque nisl lorem, consequat a facilisis in, ornare sed lorem. In luctus, elit ac mattis dapibus, lacus elit varius tortor, vel sollicitudin massa nisl id massa.  Ut sit amet nibh a sem egestas sollicitudin. Vestibulum scelerisque, dui at tincidunt accumsan, ipsum enim feugiat neque, vel interdum turpis lectus sed nisi. Nullam ultrices sodales sem, et placerat nunc euismod eu. Duis leo lacus, semper quis eleifend vitae, viverra ut nisl. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin rutrum eleifend est, id tempor velit viverra sed.
+
+
+# Acknowledgements
+
+Lorem Ipsum
+
+
+# Appendices
+

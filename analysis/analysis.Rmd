@@ -1,0 +1,26 @@
+```{r libraries, error=FALSE, message=FALSE,   echo=FALSE, cache=FALSE, warning=FALSE}
+library(dplyr)
+library(ggplot2)
+
+theme_set(theme_bw())
+
+
+load("~/local-research/foo.rda")
+
+
+```
+
+
+Is there a systematic relationship between the number of culture regions in a sample and the learning rate, at a given size design space?
+
+```{r culture-regions, results="asis", message=FALSE, warning=FALSE, fig.width=12}
+
+
+# THIS FIGURE IS USED IN THE SPRINGER PAPER
+
+p <- ggplot(full_region_count, aes(x=num_culture_regions)) + geom_histogram(binwidth=5, fill="darkgrey") + xlab("Number of Distinct Cultural Configurations") + ggtitle("Size Spectrum of Cultures by Size of the Design Space (horizontal) and Learning Rate (vertical)")
+p + facet_grid(learning_rate ~ size_trait_space, scale="free_y", as.table=FALSE)
+ggsave("../paper/figure/size-spectrum-regions-saa12full.pdf", dpi=300)
+
+
+```
