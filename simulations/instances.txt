@@ -1,0 +1,6 @@
+saa1	ec2-54-205-226-135.compute-1.amazonaws.com
+saa2	ec2-54-198-100-15.compute-1.amazonaws.com
+saa3	ec2-54-198-249-108.compute-1.amazonaws.com
+saa4	ec2-54-221-149-164.compute-1.amazonaws.com
+saa5	ec2-54-80-131-188.compute-1.amazonaws.com
+saa6	ec2-54-82-222-138.compute-1.amazonaws.com
