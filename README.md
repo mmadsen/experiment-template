@@ -36,6 +36,27 @@ Knitr is used to automatically turn the combination of Rmarkdown and R language 
 You can also produce ePub by using `make epub`, and the Makefile is also set up to produce plain Markdown for a wiki or other content source, and with the addition of template files (which are currently missing, word or OpenOffice documents).
 
 
+## Adding Git Version Identifier to Manuscripts ##
+
+I find it very useful to have an automatically added version identifier on all my manuscripts, so that when I'm editing or talking to someone about a draft, I can positively identify a document to a **specific** revision in a version control system.  This is accomplished for Latex (and thus RMarkdown) manuscripts using the `gitinfo` LaTeX package.  
+
+The package itself comes with TexLive as a distribution now (which includes Mac TexLive, etc).  So the only manual piece you need to do is establish a "post commit hook" in your Git repository once you initialize the repository.  Once you do that (see first section of this README), you'll need to copy the template file `post-commit-gitinfo-hook.txt` into the `.git/hooks` directory, as follows:
+
+```shell
+
+git init
+cp post-commit-gitinfo-hook.txt .git/post-commit
+cd .git/post-commit
+chmod +x post-commit
+cd ../../
+
+```
+
+At this point, you should check in a revision, commiting it to your Git (or Github) repository.  You should now have a file `gitHeadInfo.gin` in the main directory of this experiment, and one in the `paper` directory.  These are automatically created by the Gitinfo hook, and contain the version numbers and dates needed for insertion into your manuscript.  If you want this information available in the `presentation` directory as well, add `presentation` to the `prefixes` variable in the `.git/hooks/post-commit` script (that variable controls which subdirectories have Git version info).  
+
+Now, change directories into the `paper` directory, and type `make`.  The resulting PDF should have a date and version string (which is a unique ID, not a software-style version number, which Git does not directly use) on the title page.  
+
+
 ## Data Location ##
 
 Data are located in this repository WHENEVER POSSIBLE.  What this means is that raw data files are often too big to be checked into Github, stored on Figshare, etc., and thus are held outside the version-controlled directory for post-processing.  Once the files become small enough to handle through summarization or subsetting, however, they are located in the `analysis/data` directory.  
