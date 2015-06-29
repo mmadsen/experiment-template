@@ -45,8 +45,8 @@ The package itself comes with TexLive as a distribution now (which includes Mac 
 ```shell
 
 git init
-cp post-commit-gitinfo-hook.txt .git/post-commit
-cd .git/post-commit
+cp post-commit-gitinfo-hook.txt .git/hooks/post-commit
+cd .git/hooks
 chmod +x post-commit
 cd ../../
 
